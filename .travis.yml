@@ -1,4 +1,11 @@
-language: php
-php:
-  - 5.4
-  - 5.3
+#language: php
+#php:
+  #- 5.4
+  #- 5.3
+
+
+language: ruby
+rvm:
+    - 1.9.3
+    - 1.9.2
+    - 1.8.7
