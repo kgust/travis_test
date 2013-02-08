@@ -1,0 +1,28 @@
+{
+    "author" : "DimitarChristoff",
+    "contributors": [
+        {
+            "name": "Kevin Gustavson",
+            "email": "kdgustavson@gmail.com"
+        }
+    ],
+    "name" : "travis_test",
+    "description" : "Repo for Travis CI Testing",
+    "version" : "0.0.1",
+    "scripts" : {
+        "test" : "node_modules/.bin/buster-test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kgust/travis_test"
+    },
+    "keywords": ["buster"],
+    "main": "./build/travis_test.js",
+    "license": "GPL",
+    "devDependencies" : {
+        "buster" : "~0.6.0"
+    },
+    "engines" : {
+        "node" : "~0.6"
+    }
+}
